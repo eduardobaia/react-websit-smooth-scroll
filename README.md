@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Website using Styled Components and Smooth Scroll - Project Fully Responsive
+
 
 ## Available Scripts
 
