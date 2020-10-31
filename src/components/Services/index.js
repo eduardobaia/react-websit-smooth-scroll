@@ -28,7 +28,7 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon3}></ServicesIcon>
                     <ServicesH2>Gym support</ServicesH2>
-                    <ServicesP>Create a plan workout.</ServicesP>
+                    <ServicesP>Create a plan workout. This is simples, easy and productible.</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
