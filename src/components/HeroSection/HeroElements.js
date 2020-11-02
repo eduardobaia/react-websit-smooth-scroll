@@ -8,6 +8,8 @@ export const HeroContainer = styled.div`
     align-items: center;
     padding: 0 30px;
     height: 800px;
+    /* Adicionei -80 pra poder ficar preto em cima do nav, pq ficava branco pq e transparente na configf do nav */
+    margin-top: -80px; 
     position: relative;
     z-index: 1;
 
