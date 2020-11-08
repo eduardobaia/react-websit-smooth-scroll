@@ -31,20 +31,22 @@ const InfoSection = ({ lightBg, id, imgStart,
 
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headLine}</Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <Subtitle darkText={darkText}>{description}   
+                                C:\Developer\reactjs\react-website-smooth-scroll\src\images
+                        </Subtitle>
                                 <BtnWrap>
-                                <Button to='home'
+                                    <Button to='home'
                                         smooth={true}
                                         duration={500}
                                         spy={true}
-                                        exct={true}
+                                        exact='true'
                                         offset={-80}
                                         primary={primary ? 1 : 0}
                                         dark={dark ? 1 : 0}
                                         dark2={dark2 ? 1 : 0}
 
                                     > {buttonLabel}</Button>
-                                    </BtnWrap>
+                                </BtnWrap>
 
                             </TextWrapper>
                         </Column1>

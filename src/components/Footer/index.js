@@ -9,7 +9,7 @@ import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
 //     FooterLinkTitle,
 //     FooterLink
 // } from './FooterElements';
-
+import { animateScroll as scroll } from 'react-scroll';
 import {
     FooterContainer,
     FooterWrap,
@@ -27,6 +27,12 @@ import {
 } from './FooterElements';
 
 const Footer = () => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    };
+
+
     return (
         <FooterContainer>
             <FooterWrap>
@@ -82,7 +88,7 @@ const Footer = () => {
 
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'></SocialLogo>
+                        <SocialLogo to='/' onClick={toggleHome}>IRON TEAM </SocialLogo>
                         <WebSiteRights>IRON TEAM © {new Date().getFullYear()} All rights reserved.</WebSiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank"
